@@ -1,0 +1,14 @@
+Source code management - GIT
+git init
+git log
+git status
+vim
+vi
+nano
+git add .\hello_world.py
+git add .\*.py
+git commit -m "added hello world"
+git log
+git --help
+git remote add origin https://github.com/daniyar-yes/hello_python.git
+git push -u origin main
