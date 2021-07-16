@@ -77,7 +77,8 @@ Today is sunny.
 It's a sunny day today
 
 Formalizing - giving structure. Turning phrases into symbols.
-Interpretation - giving it a meaning. Turnins sybmols into phrases.
+
+Interpretation - giving it a meaning. Turning sybmols into phrases.
 
 <b> Truth Tables </b>
 Atomic propositions can be T or F. We derive the T or F by comparing Atomic propositions with reality.
@@ -114,3 +115,79 @@ Disjunction "v" (or)
 |T|F|T|
 |F|T|T|
 |F|F|F|
+
+<b>Boolean logic</b>
+Every operation is reduced to:
+<b>AND</b> Conjunction (and)
+<b>OR</b> Disjunction (or)
+<b>NOT</b> Negation (not)
+
+<b>EXAMPLE</b>
+
+Reasoning to know if the are stealing.
+
+"They Are Stealing if IT'S <i>NOT</i> DAY <i>AND</i> THE WINDOW IS OPEN"
+
+R = THEY ARE STEALING.
+
+P = IT IS DAY.
+
+Q = THE WINDOW IS OPEN.
+
+R = NOT(P) AND Q
+
+|P|Q|NOT(p)|Not(P) and Q|
+|---|---|---|---|
+|F|F|T|F|
+|F|T|T|T|
+|T|F|F|F|
+|T|T|F|F|
+
+<b>Connectives Precedence</b>
+Which connectives go first (порядок действий).
+
+Major to minor precedence:
+<ol>
+<li>()    parenthesis
+<li> ~    negation NOT
+<li> ^    conjunction AND
+<li> v    disjunction OR
+</ol>
+Example:
+
+P ^ Q v K
+
+Let's do a truth table
+|P|Q|K|P^Q|(P^Q) v K|
+|---|---|---|---|---|
+|T|T|T|T|T|
+|T|T|F|T|T|
+|T|F|T|F|T|
+|T|F|F|F|F|
+|F|T|T|F|T|
+|F|F|T|F|T|
+|F|T|F|F|F|
+|F|F|F|F|F|
+
+Now let's do a different order:
+
+|P|Q|K|Q v K|P ^ (Q v K)|
+|---|---|---|---|---|
+|T|T|T|T|T|
+|T|T|F|T|T|
+|T|F|T|T|T|
+|T|F|F|F|F|
+|F|T|T|T|F|
+|F|F|T|T|F|
+|F|T|F|T|F|
+|F|F|F|F|F|
+
+Another Example:
+
+<b>not(Q) AND not(p) OR X = V</b>
+  
+|P|Q|X|Not(Q)|not(p)|~q AND ~p|(~q AND ~p) OR X|
+|---|---|---|---|---|---|---|
+|F|F|T|T|T|T|T|
+
+
