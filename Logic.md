@@ -33,6 +33,7 @@ Sentence that describe some property about someone or something.
 It has precise words and a clear sense.
 Can be evaluated to true or false.
 
+
 Type of propositions:
 <b>Atomic</b>
 is the simplest proposition.
@@ -57,3 +58,59 @@ Composed of atomic propositions joined by link terms (or connectives).
   <li> Identify <b>Connectives</b>
     <li> Group into <b>Molecular Propositions</b> 
       </ul>
+
+<b> Formalization </b> is the process of breaking down molecules to atoms in logic.
+
+<b> INTERPRETATION </b>
+
+If today rains, I won't take the bus.
+If I don't get paid, I won't go to work.
+
+Two different things, but the same logical structure.
+P -> Q
+-> represents if: if P then Q
+P and Q are variables.
+
+<b> AMBIGUITIES (Двусмысленность)</b>
+Today it is a sunny day.
+Today is sunny.
+It's a sunny day today
+
+Formalizing - giving structure. Turning phrases into symbols.
+Interpretation - giving it a meaning. Turnins sybmols into phrases.
+
+<b> Truth Tables </b>
+Atomic propositions can be T or F. We derive the T or F by comparing Atomic propositions with reality.
+
+For moleculars, they also can be T or F. We determine it by using truth tables of their molecular propositions.
+
+Consider a proposition <b>P</b> taht can take T or F:
+| Not p | P |
+|---|---|
+|F|T|
+|T|F|
+
+Let's consider to propositions, <b>P</b> and <b>Q</b>
+
+Both true p=T, q=T
+Both False p=F, q=F
+P is true and q False p=T, q=F
+Q is true and q false p=F, q=T.
+
+Conjunction "^" (and)
+
+|p|q|p^q|
+|---|---|---|
+|T|T|T|
+|T|F|F|
+|F|T|F|
+|F|F|F|
+
+Disjunction "v" (or)
+
+|p|q|p v q|
+|---|---|---|
+|T|T|T|
+|T|F|T|
+|F|T|T|
+|F|F|F|
