@@ -25,3 +25,53 @@ An algorithm has two large blocks:
     <li>end algorithm
     </ul>
     
+Variable and constants. Variables can change, constants cannot.
+
+They have name, type and content (value).
+
+Algorithm ExampleAlgorithm
+  var number: x
+  
+  var number: y
+  
+  ...
+  
+  More declarations
+  
+  actions
+  
+  end of algorithm
+  
+  Types of Actions.
+  
+  The Bohm-Jacopini theorem proves that any algorithm can be described with the three types of actions below.
+  
+  <ol>
+  <li> Sequence: It is a simple operation that runs as a step.
+    <li> Selection / Conditional: to make decisions.
+      <li> Iteration: They allow to repeat actions under a certain condition or a certain number of times.
+        </ol>
+        
+<b> Sequence </b>
+        
+Sequence represents a direct operation to be carried out. They are called a sequence because they are executed one after another in a sequential order.
+
+<b>We write one action per line</b>
+
+Different types:
+
+Assignment - operation to give value to a variable from an expression.
+
+Input: operation to enter characters by keyboard.
+
+Output: operations to display characters on the screen.
+
+Algorithm invocation: Sequence can be invoked and act as an action.
+
+Expression: is a combination of operands connected to operators that is evaluated and returns a single value.
+
+X = 2 + 5 is an expression. X is variable, 2 and 5 are operands, + and = are operators.
+
+
+
+They are representations of a calculation needed to obtain a result that we want.
