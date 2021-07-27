@@ -75,3 +75,24 @@ X = 2 + 5 is an expression. X is variable, 2 and 5 are operands, + and = are ope
 
 
 They are representations of a calculation needed to obtain a result that we want.
+
+for loops are easier versions of while loop, but usually we better know the number of iterations that will do.
+
+var ac, i
+for i = 1 to 5 do ac += i;
+
+
+<b>Recap of previous material</b>
+
+Data is represented by a value.
+
+Value can be numerical, logis, characters and strings.
+
+Value types have different properties. For example, numbers have arithmetic properties.
+
+Booleans have logic properties.
+
+'S' is a symbol or character, "say" is a string.
+
+
+
